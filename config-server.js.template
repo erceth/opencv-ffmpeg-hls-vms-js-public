@@ -1,0 +1,35 @@
+module.exports = {
+  general: {
+    segmentTime: 4,
+    listSize: 1440
+  },
+  cameras: [
+    {
+      // input: 'ped3-480.mp4',
+      ip: '192.168.1.88',
+      path: '/axis-media/media.amp?resolution=640x480',
+      detectParameters: {
+        width: 480, //640
+        hitThreshold: 1,
+        windowStride: 4,
+        padding: 2,
+        scale: 1.04,
+        fps: 2
+      }
+    },
+    {
+      input: 'ped2-480.mp4',
+      ip: 'admin:Qn4KZqt8@192.168.1.43:554',
+      path: '/cam/realmonitor?channel=1&subtype=01&authbasic=ZSYybE07Mm9uq2o2XLU=',
+      detectParameters: {
+        width: 400,
+        hitThreshold: 1,
+        windowStride: 1,
+        padding: 6,
+        scale: 1.04,
+        fps: 2
+      }
+    }
+  ]
+}
+// MUST MATCH config-app.js
