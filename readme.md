@@ -1,3 +1,4 @@
+> [Deprecated] Javascript bindings are a little unstable. New version here: [https://github.com/erceth/OPENCV-FFMPEG-HLS-VMS-JS-PY-public](https://github.com/erceth/OPENCV-FFMPEG-HLS-VMS-JS-PY-public)
 # OpenCV FFmpeg HLS Video Management System
 ![opencv ffmpeg HLS all wrapped together using Javascript](./opencv-ffmpeg-hls.png)
 
